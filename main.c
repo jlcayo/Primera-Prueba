@@ -35,6 +35,7 @@ int main() {
 		printf("Elemento en indice %d: %d\n", i, arr[i]);
 	}
 	free(arr);
+	printf("Programa finalizado y memoria liberada.\n");
 	printf("Memoria liberada.\n");
 	
 	return 0; // Terminación exitosa del programa
